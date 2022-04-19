@@ -1,0 +1,12 @@
+C:\Users\aril\source\repos\PraUTS\PraUTS\bin\Debug\PraUTS.exe.config
+C:\Users\aril\source\repos\PraUTS\PraUTS\bin\Debug\PraUTS.exe
+C:\Users\aril\source\repos\PraUTS\PraUTS\bin\Debug\PraUTS.pdb
+C:\Users\aril\source\repos\PraUTS\PraUTS\bin\Debug\PraUTS.xml
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.vbprojAssemblyReference.cache
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.Form1.resources
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.Resources.resources
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.vbproj.GenerateResource.cache
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.vbproj.CoreCompileInputs.cache
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.exe
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.xml
+C:\Users\aril\source\repos\PraUTS\PraUTS\obj\Debug\PraUTS.pdb
