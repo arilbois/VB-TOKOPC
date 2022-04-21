@@ -23,7 +23,6 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Tkode = New System.Windows.Forms.TextBox()
-        Me.Ttanggal = New System.Windows.Forms.TextBox()
         Me.Tnama = New System.Windows.Forms.TextBox()
         Me.Talamat = New System.Windows.Forms.TextBox()
         Me.Tharga = New System.Windows.Forms.TextBox()
@@ -52,6 +51,11 @@ Partial Class Form1
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.tanggal = New System.Windows.Forms.DateTimePicker()
+        Me.tdb = New System.Windows.Forms.DataGridView()
+        Me.insert = New System.Windows.Forms.Button()
+        CType(Me.tdb, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Tkode
@@ -60,13 +64,6 @@ Partial Class Form1
         Me.Tkode.Name = "Tkode"
         Me.Tkode.Size = New System.Drawing.Size(168, 20)
         Me.Tkode.TabIndex = 0
-        '
-        'Ttanggal
-        '
-        Me.Ttanggal.Location = New System.Drawing.Point(179, 208)
-        Me.Ttanggal.Name = "Ttanggal"
-        Me.Ttanggal.Size = New System.Drawing.Size(223, 20)
-        Me.Ttanggal.TabIndex = 1
         '
         'Tnama
         '
@@ -305,11 +302,50 @@ Partial Class Form1
         Me.Label17.TabIndex = 28
         Me.Label17.Text = "NAMA : SYAHRIL LUKMAN"
         '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(563, 596)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(68, 23)
+        Me.Button3.TabIndex = 31
+        Me.Button3.Text = "keluar"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'tanggal
+        '
+        Me.tanggal.Location = New System.Drawing.Point(179, 211)
+        Me.tanggal.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.tanggal.Name = "tanggal"
+        Me.tanggal.Size = New System.Drawing.Size(193, 20)
+        Me.tanggal.TabIndex = 32
+        '
+        'tdb
+        '
+        Me.tdb.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.tdb.Location = New System.Drawing.Point(735, 186)
+        Me.tdb.Name = "tdb"
+        Me.tdb.Size = New System.Drawing.Size(847, 437)
+        Me.tdb.TabIndex = 33
+        '
+        'insert
+        '
+        Me.insert.Location = New System.Drawing.Point(461, 596)
+        Me.insert.Name = "insert"
+        Me.insert.Size = New System.Drawing.Size(75, 23)
+        Me.insert.TabIndex = 34
+        Me.insert.Text = "Baru"
+        Me.insert.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(906, 701)
+        Me.ClientSize = New System.Drawing.Size(1749, 681)
+        Me.Controls.Add(Me.insert)
+        Me.Controls.Add(Me.tdb)
+        Me.Controls.Add(Me.tanggal)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
@@ -337,17 +373,16 @@ Partial Class Form1
         Me.Controls.Add(Me.Tharga)
         Me.Controls.Add(Me.Talamat)
         Me.Controls.Add(Me.Tnama)
-        Me.Controls.Add(Me.Ttanggal)
         Me.Controls.Add(Me.Tkode)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = " Penjualan"
+        CType(Me.tdb, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Tkode As TextBox
-    Friend WithEvents Ttanggal As TextBox
     Friend WithEvents Tnama As TextBox
     Friend WithEvents Talamat As TextBox
     Friend WithEvents Tharga As TextBox
@@ -376,4 +411,8 @@ Partial Class Form1
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
+    Friend WithEvents Button3 As Button
+    Friend WithEvents tanggal As DateTimePicker
+    Friend WithEvents tdb As DataGridView
+    Friend WithEvents insert As Button
 End Class
